@@ -8,7 +8,7 @@ log.logButton.onclick = function Login(event) {
     let usuario = log.usuario.value;
     let password = log.password.value;
     console.log(usuario, password)
-    if (usuario == "NICOLAS" && password == "1234") {
+    if (usuario === "NICOLAS" && password === "1234") {
         window.location.href = "pedidos.html"
     }
     if (usuario != "NICOLAS" && password != "1234") {
