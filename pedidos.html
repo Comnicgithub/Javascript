@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SCRIPT PARA EXPORTAR -->
+    <script src="./js/xlsx.full.min.js"></script>
+    <script src="./js/FileSaver.min.js"></script>
+    <script src="./js/tableexport.min.js"></script>
+    <!-- END -->
+    <link rel="stylesheet" href="style.css">
+    <title>Carga de productos | Opticaflex | Nicolas Lopez </title>
+</head>
+
+<body>
+    <header>
+		<div>
+            <div class="logotop">
+                <img src="img/logo-negro.png" alt="Optica flex"></td>
+            </div>
+            <div>
+                <img src="img/top-index.jpg" alt="top-index" class="top">
+            </div>
+        </div>
+	</header>
+    <h1 id="titulo"></h1>
+    <div id="parrafo"></div><br>
+
+    <div id="cargadorDeProducto">
+        <form action="" id="formulario" method="post">
+            <select name="" id="tipo" class="formulario" required>
+                <option value="Recetados"> Lentes Recetados</option>
+                <option value="De Sol">Lentes de Sol</option>
+            </select>
+            <select name="" id="marca" class="formulario" required>
+                <option value="Rayban">Rayban</option>
+                <option value="Rusty">Rusty</option>
+                <option value="Orbital">Orbital</option>
+                <option value="360">360</option>
+                <option value="Sarkany">Sarkany</option>
+                <option value="MDQ">MDQ</option>
+                <option value="Paula">Paula</option>
+                <option value="Volkom">Volkom</option>
+            </select>
+            <select name="" id="genero" class="formulario" required>
+                <option value="Hombre">Hombre</option>
+                <option value="Mujer">Mujer</option>
+                <option value="Unisex">Unisex</option>
+            </select>
+            <input type="number" placeholder="Precio" id="precio" class="precio" required><br><br>
+            <input type="submit" value="Cargar nuevo producto" id="btnMostrar" class="enviar">
+        </form>
+        <br>
+        <div>
+
+        </div>
+        <table id="tabla">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Tipo de lente</th>
+                    <th>Marca del lente</th>
+                    <th>Genero</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody id="listaProducto">
+
+            </tbody>
+        </table>
+        <br>
+        <button id="btnExportar" class="btnMostrar">Exportar en excel</button>
+        <br>
+        <hr>
+        <br>
+        <button id="refresh" class="btnMostrar">Empezar nuevamente</button>
+    </div>
+    <footer>
+        <div>
+            <img src="../img/logo-blanco.png" alt="Optica flex" height="30px">
+        </div>
+	</footer>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

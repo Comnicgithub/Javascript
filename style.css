@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+}
+main {
+    min-height: 300px;
+}
+
+h1 {
+    color: rgb(255, 166, 0);
+}
+
+table {
+    width: 750px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+button {
+    border: none;
+    padding: 0.5rem 1rem;
+    background: #d90e52;
+    color: white;
+    cursor: pointer;
+
+}
+
+.show {
+    background: #0c7d97;
+}
+
+th {
+    width: 20%;
+    height: 35px;
+    border-radius: 10px;
+    background: rgb(255, 171, 0);
+    background: linear-gradient(0deg, rgba(255, 171, 0, 1) 0%, rgba(230, 119, 0, 1) 100%);
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: auto;
+    border: 2px solid white;
+}
+
+td {
+    width: 20%;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgba(220, 220, 220, 0.39);
+    text-align: center;
+    vertical-align: auto;
+    border: 2px solid white;
+}
+
+select {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(228, 228, 228);
+    color: rgba(0, 0, 0, 0.582);
+    font-size: 16px;
+    font-weight: 500;
+    border: 0px solid;
+    text-align: center;
+}
+
+
+
+input.precio {
+    width: 150px;
+    height: 28px;
+    border-radius: 10px;
+    background-color: rgb(228, 228, 228);
+    color: rgba(0, 0, 0, 0.582);
+    font-weight: 500;
+    font-size: 16px;
+    border: 0px solid;
+    text-align: center;
+}
+
+input.enviar {
+    width: 600px;
+    height: 28px;
+    border-radius: 10px;
+    background: rgb(255, 171, 0);
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    border: 0px solid;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+input.enviar:hover {
+    width: 550px;
+    height: 28px;
+    border-radius: 10px;
+    background-color: grey;
+    color: white;
+    font-weight: 500;
+    border: 0px solid;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.btnMostrar {
+    width: 600px;
+    height: 28px;
+    border-radius: 10px;
+    background: rgb(255, 171, 0);
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    border: 0px solid;
+    text-align: center;
+    transition: all 0.5s;
+    padding-bottom: 25px;
+}
+
+.btnMostrar:hover {
+    width: 550px;
+    height: 28px;
+    border-radius: 10px;
+    background-color: grey;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    border: 0px solid;
+    text-align: center;
+    transition: all 0.5s;
+    padding-bottom: 25px;
+}
+
+ul {
+    padding-right: 0px;
+    padding-left: 0px;
+    float: left;
+    padding-bottom: 0px;
+    margin: 15px;
+    width: 100%;
+    padding-top: 0px;
+    list-style-type: none;
+    align-items: center;
+}
+
+li {
+    PADDING-RIGHT: 10px;
+    DISPLAY: inline;
+    PADDING-LEFT: 10px;
+    FLOAT: left;
+    PADDING-BOTTOM: 10px;
+    WIDTH: 10%;
+    PADDING-TOP: 10px
+}
+
+.top {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.logotop {
+    height: 60px;
+}
+
+.logotop img {
+    height: 50px;
+}
+
+.nav2 {
+    align-items: center;
+    align-content: center;
+}
+
+footer {
+    background-color: dimgray;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.campos{
+    background-color: rgb(240, 240, 240);
+    height: 30px;
+    color: rgb(138, 138, 138);
+    font-weight: bold;
+    text-align: center;
+    border: none;
+}
+
+.boton {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    height: 30px;
+    width: 200px;
+    border: none;
+}
+
+.boton {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    height: 30px;
+    width: 200px;
+    border: none;
+    text-align: center;
+    transition: all 0.5s;
+}
+.boton:hover {
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    height: 30px;
+    width: 200px;
+    border: none;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.btnMostrar {
+    width: 600px;
+    height: 28px;
+    border-radius: 10px;
+    background: rgb(255, 171, 0);
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    border: 0px solid;
+    text-align: center;
+    transition: all 0.5s;
+    padding-bottom: 25px;
+}
+
+.btnMostrar:hover {
+    width: 550px;
+    height: 28px;
+    border-radius: 10px;
+    background-color: grey;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    border: 0px solid;
+    text-align: center;
+    transition: all 0.5s;
+    padding-bottom: 25px;
+}
