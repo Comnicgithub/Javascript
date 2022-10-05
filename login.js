@@ -11,7 +11,7 @@ log.logButton.onclick = function Login(event) {
     if (usuario === "NICOLAS" && password === "1234") {
         window.location.href = "pedidos.html"
     }
-    if (usuario != "NICOLAS" && password != "1234") {
+    if (usuario != "NICOLAS" || password != "1234") {
         swal("Ingrese datos validos", {
             icon: "error",
         });
